@@ -10,7 +10,7 @@ import com.voterapp.service.*;
 public class Voter {
 
 	public static void main(String[] args) throws NotEligibleException {
-		ElectionBooth b= new ElectionBooth();
+		E b= new ElectionBooth();
 		Scanner kb = new S(System.in);
 		System.out.println("Please enter the age of the voter ");
 		int age = kb.nextInt();
